@@ -320,4 +320,14 @@ utils/fix_data_dir.sh lang_prep/train
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Lang directory
 --------------------------------------------------------------------------
+mělo by vypadat: s5# ls lang_prep/lang
+L.fst  L_disambig.fst  oov.int	oov.txt  phones  phones.txt  topo  words.txt
+
+s5# ls lang_prep/lang_test
+G.fst  L.fst  L_disambig.fst  oov.int  oov.txt	phones	phones.txt  topo
+words.txt (Note that lang_test/ was created by copying lang/ and adding G.fst)
+
+Musíme sami připravit adresář dict
+s5# ls data/local/dict
+extra_questions.txt  lexicon.txt nonsilence_phones.txt  optional_silence.txt  silence_phones.txt
 
