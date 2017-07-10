@@ -1,0 +1,323 @@
+pokud není výpočetní síla našeho počítače velká, můžeme klidně testovat pouze na prvních 4 speakrech
+
+Vytvoren adresar myproj v egs, v něm lang_prep
+nakopírovány tyto soubory z vystadial_cz sem:
+cmd.sh
+env_voip_cs.sh
+path.sh
+prubeh-prace.txt
+run.sh
+
+CUCFN:
+Definition
+README.txt
+puvodni
+test
+train
+
+common:
+decode.conf
+mfcc.conf
+
+local:
+backup.sh
+create_G.sh
+create_LMs.sh
+create_phone_lists.sh
+create_sample.sh
+data_split.sh
+download_cs_data.sh
+export_models.sh
+make_baseform.pl
+phonetic_transcription_cs.pl
+prepare_cs_transcription.sh
+results.py
+save_check.sh
+score.sh
+
+steps:
+align_basis_fmllr.sh
+align_fmllr.sh
+align_fmllr_lats.sh
+align_lvtln.sh
+align_raw_fmllr.sh
+align_sgmm2.sh
+align_si.sh
+append_feats.sh
+cleanup
+combine_ali_dirs.sh
+compute_cmvn_stats.sh
+conf
+data
+decode.sh
+decode_basis_fmllr.sh
+decode_biglm.sh
+decode_combine.sh
+decode_fmllr.sh
+decode_fmllr_extra.sh
+decode_fmmi.sh
+decode_fromlats.sh
+decode_lvtln.sh
+decode_nnet.sh
+decode_nolats.sh
+decode_raw_fmllr.sh
+decode_sgmm2.sh
+decode_sgmm2_fromlats.sh
+decode_sgmm2_rescore.sh
+decode_sgmm2_rescore_project.sh
+decode_si.sh
+decode_with_map.sh
+diagnostic
+dict
+get_ctm.sh
+get_fmllr_basis.sh
+get_lexicon_probs.sh
+get_prons.sh
+get_train_ctm.sh
+info
+kl_hmm
+libs
+lmrescore.sh
+lmrescore_const_arpa.sh
+lmrescore_rnnlm_lat.sh
+make_denlats.sh
+make_denlats_sgmm2.sh
+make_fbank.sh
+make_fbank_pitch.sh
+make_index.sh
+make_mfcc.sh
+make_mfcc_pitch.sh
+make_mfcc_pitch_online.sh
+make_phone_graph.sh
+make_plp.sh
+make_plp_pitch.sh
+nnet
+nnet2
+nnet3
+online
+oracle_wer.sh
+paste_feats.sh
+resegment_data.sh
+resegment_text.sh
+rnnlmrescore.sh
+score_kaldi.sh
+score_kaldi_compare.sh
+scoring
+search_index.sh
+select_feats.sh
+shift_feats.sh
+tandem
+train_deltas.sh
+train_diag_ubm.sh
+train_lda_mllt.sh
+train_lvtln.sh
+train_map.sh
+train_mmi.sh
+train_mmi_fmmi.sh
+train_mmi_fmmi_indirect.sh
+train_mmi_sgmm2.sh
+train_mono.sh
+train_mpe.sh
+train_nnet.sh
+train_quick.sh
+train_raw_sat.sh
+train_sat.sh
+train_sat_basis.sh
+train_segmenter.sh
+train_sgmm2.sh
+train_sgmm2_group.sh
+train_smbr.sh
+train_ubm.sh
+word_align_lattices.sh
+
+utils:
+add_disambig.pl
+add_lex_disambig.pl
+analyze_segments.pl
+apply_map.pl
+best_wer.sh
+build_const_arpa_lm.sh
+combine_data.sh
+convert_ctm.pl
+convert_slf.pl
+convert_slf_parallel.sh
+copy_data_dir.sh
+create_data_link.pl
+create_split_dir.pl
+data
+dict_dir_add_pronprobs.sh
+eps2disambig.pl
+filt.py
+filter_scp.pl
+filter_scps.pl
+find_arpa_oovs.pl
+fix_ctm.sh
+fix_data_dir.sh
+format_lm.sh
+format_lm_sri.sh
+gen_topo.pl
+int2sym.pl
+kwslist_post_process.pl
+lang
+ln.pl
+make_lexicon_fst.pl
+make_lexicon_fst_silprob.pl
+make_unigram_grammar.pl
+map_arpa_lm.pl
+mkgraph.sh
+nnet
+nnet-cpu
+parse_options.sh
+pbs.pl
+perturb_data_dir_speed.sh
+pinyin_map.pl
+prepare_lang.sh
+prepare_online_nnet_dist_build.sh
+queue.pl
+remove_data_links.sh
+remove_oovs.pl
+reverse_arpa.py
+rnnlm_compute_scores.sh
+run.pl
+s2eps.pl
+scoring
+segmentation.pl
+show_lattice.sh
+shuffle_list.pl
+slurm.pl
+spk2utt_to_utt2spk.pl
+split_data.sh
+split_scp.pl
+ssh.pl
+subset_data_dir.sh
+subset_data_dir_tr_cv.sh
+subset_scp.pl
+summarize_logs.pl
+summarize_warnings.pl
+sym2int.pl
+utt2spk_to_spk2utt.pl
+validate_data_dir.sh
+validate_dict_dir.pl
+validate_lang.pl
+write_kwslist.pl
+
+
+
+
+konverze souborů se provází příkazem: sox ls0x10.wav -r 16k testoutput.wav
+- v každém adresáři speakerIJ: for FILENAME in *.wav; do sox $FILENAME -r 16k $FILENAME; done 
+
+funguje pro všechny, pokud jsem v nějaké složce speakerXY a spustím;
+for D in ../*; do cd $D; for FILENAME in $D/*.wav; do sox $FILENAME -r 16k $FILENAME; done ; done
+
+
+dává toto chybové hlášení: sox WARN wav: Premature EOF on .wav input file
+
+zkonvertovány všechny soubory na 16000 Hz
+Dále změněny cesty v env_voip_cs.sh:
+        nastaven adresář DATA_ROOT na pwd/data
+spuštěny ./env___ ./path.sh ./cmd.sh
+
+
+bude asi potřeba spustit: 
+local/data_split.sh --every_n 1 data local "build0 build2" "dev test"
+ale to není jen tak - hlásí chyby neexistence souborů
+
+
+Otázky:
+0. sox hlásí chyby
+
+1. Mají být soubory s daty všechny dohromady, nebo ne?
+
+2. Co mám dělat, když nemůžu najít/nemám local/train/ ani test ?? Tj. ani
+train/trans.txt? A co to vlastně je za soubor?
+
+3. Jak najdu, v jakém formátu to data chce? Chtěla bych nějak vytvořit
+dict,fonologický přepis ..., ale jak?
+
+4. Pak: Jaké k=odování se používá? Vypadá to, že jak nahrávky, tak fonémy apod.
+jsou v iso-latin2, tedy spolu jsou kompatibilní. Ale co s ostatním? Mám radši vše převést do UTF-8?
+
+5. v kalditut jsou utils/prepare_lang.sh local/rm_data_prep.sh  apod. Co
+tytoubory dělají? Jak je získat?
+
+
+Výstupem  data_split.sh  má být soubor ve formátu train.txt, pro všechny
+speakery. Tj. přepsat data_split.sh na třeba data_prep.sh a připravit data
+tak, jak je potřebuji. ../lang_prep/train/text 
+
+
+
+ z nějakého důvodu opět chybí 69 :(, ale pouze textové přepisy, ne nehrávky
+1. soubory roztříděny na test a train data
+2. soubory zkonvertovány
+
+spustit z s5 ./split-and-conv.sh
+a z adresářů test a train spustit ./2Capitals-conv
+
+poté v obou adresářích spustit:
+find -iname '*.txt' -exec ../../p.sh {} \; >>text
+
+3. přesunout vytvořené soubory text z test a train
+cp CUCFN/test/text lang_prep/test/text
+
+4. z test i train spustit ../../skripty/wavscp.sh
+5. z test i train spustit ../../skripty/utt2spk.sh
+asi chci změnit utterance-id na <spk-id><file-id>  cat utt2spk | sed -r 's/^([0-9]+)(x*)/\1-\1\2/g'
+
+
+6. pro zjištění pohlaví (pro mě, abych mohla vytvořit soubor):
+for F in 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 23 24 25 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 72 74; do cat c$F\x0.txt | head -2 | tail -1 ; done
+ - pouze speakeři: for F in 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+   23 24 25 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 72 74; do echo $F;
+   done >> speak2gender2
+ - pohlaví musím doplnit ručně
+
+7. všechny získané soubory speak2gender, text, utt2spk, wav.scp zkopírovat do
+lang_prep/test nebo train a setřídit!
+na třídění musí být nastaveno export LC_ALL=C, jinak se bude třídění lišit od
+kaldi
+ spustit z test i train ../../skripty/sort.sh 
+
+nyní mám všechny soubory, které musím udělat sama. Čeká mě další část http://kaldi-asr.org/doc/data_prep.html
+
+Data, která nemusím připravovat sama - příkazy
+7. utils/utt2spk_to_spk2utt.pl lang_prep/test/utt2spk > lang_prep/test/spk2utt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+formáty:
+text: <utterance-id> - měla by mít jako předponu speaker-id, <transcription of
+each sentence>
+
+wav.scp: <recording-id> <extended filename>
+utt2spk: <utterance-id> <speaker-id>
+spk2gender: <speaker-id> m/f
+
+převedení z "x" na "-" v id: 9x130 -> 9-130 :
+cat text | tr 'x' '-' | sed -r 's/^cls//g' | sort > pom
+cat wav.scp | sed -r 's/^cls([0-9]+)x([0-9]+).wav.wav/\1-\2/g' > pom
+cat pom | sort | grep -Ev '^cls' | sort  > wav.scp 
+../../utils/utt2spk_to_spk2utt.pl utt2spk > spk2utt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% dodělat: je třeba fixnout správné pořadí, nezapomenout se dívat do run.sh
+ve vystadial_cz/s5
+je třeba udělat soubor: feats.scp, nasledujicim prikazem:
+8. steps/make_mfcc.sh --mfcc-config common/mfcc.conf --cmd "run.pl --mem 4G" --nj 2 lang_prep/train exp/make_mfcc/train mfcc
+ spouštět z s5
+ problém se sortem je takovýto: v programu se třídí lexikograficky, zatímo můj
+ sort zesortí utt2spk při výrobě nějakým jiným sortem..., nutno nějak fixnout
+ (problém vzniká v validate_data_dir.sh)
+
+9. krok: vytvořit soubor cmvn.scp
+steps/compute_cmvn_stats.sh lang_prep/train/ exp/make_mfcc/train
+
+Může být užitečné zkontrolovat formát souborů, viz kaldi text, ale část je už
+součástí předchozího skriptu
+utils/validate_data_dir.sh lang_prep/train
+utils/fix_data_dir.sh lang_prep/train
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Lang directory
+--------------------------------------------------------------------------
+
