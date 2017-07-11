@@ -31519,6 +31519,11 @@ ZŮSTATKU ZŮSTATKU z_B uu_I s_I t_I a_I t_I k_I u_E
 ZŮSTÁVAJÍ ZŮSTÁVAJÍ z_B uu_I s_I t_I aa_I v_I a_I j_I ii_E
 ZŮSTÁVALO ZŮSTÁVALO z_B uu_I s_I t_I aa_I v_I a_I l_I o_E
 ZŮSTÁVÁ ZŮSTÁVÁ z_B uu_I s_I t_I aa_I v_I aa_E
+_EHM_HMM_ _EHM_HMM_ EHM_S
+_INHALE_ _INHALE_ INH_S
+_LAUGH_ _LAUGH_ LAU_S
+_NOISE_ _NOISE_ NOI_S
+_SIL_ _SIL_ SIL_S
 Á Á aa_S
 ÁČKA ÁČKA aa_B ch_I k_I a_E
 ÁČKO ÁČKO aa_B ch_I k_I o_E
