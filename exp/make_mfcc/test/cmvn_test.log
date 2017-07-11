@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:lang_prep/test//spk2utt scp:lang_prep/test//feats.scp ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/test//data/cmvn_test.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/test//data/cmvn_test.scp 
+LOG (compute-cmvn-stats[5.1.66~1-81346]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 1540 utterances; 0 had errors.

@@ -1,0 +1,2 @@
+  
+for D in ../*; do cd $D; for FILENAME in $D/*.wav; do sox $FILENAME -r 16k $FILENAME; done ; done
