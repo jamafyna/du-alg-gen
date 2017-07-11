@@ -353,6 +353,15 @@ cat lang_prep/local/dict/pom > lang_prep/local/dict/lexicon.txt
 smazat první řádek (jediný prázdný)
 #--> ERROR: lexicon.txt contains word  with empty pronunciation.
 
-Už se povedlo, ale napsalo to: sym2int.pl: undefined symbol _SIL_ (in position 1)
+#Už se povedlo, ale napsalo to: sym2int.pl: undefined symbol _SIL_ (in position 1)
 
+#soubor cs_transcription nejspis nepotrebuji, je stejny s lexicon az na prvni
+radek a nasledujici symboly, ktere je nutne dodat do lexiconu:
+_EHM_HMM_ EHM
+_INHALE_ INH
+_LAUGH_ LAU
+_NOISE_ NOI
+_SIL_ SIL
+# lexicon.txt musí být setřízený
 
+# vocab-oov.txt je prázdný, zkopírován z vystadial
