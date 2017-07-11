@@ -31525,6 +31525,11 @@ ZŮSTATKU        z uu s t a t k u
 ZŮSTÁVAJÍ        z uu s t aa v a j ii 
 ZŮSTÁVALO        z uu s t aa v a l o 
 ZŮSTÁVÁ        z uu s t aa v aa 
+_EHM_HMM_ EHM
+_INHALE_ INH
+_LAUGH_ LAU
+_NOISE_ NOI
+_SIL_ SIL
 Á        aa 
 ÁČKA        aa ch k a 
 ÁČKO        aa ch k o 
