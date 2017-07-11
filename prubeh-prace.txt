@@ -331,3 +331,9 @@ Musíme sami připravit adresář dict
 s5# ls data/local/dict
 extra_questions.txt  lexicon.txt nonsilence_phones.txt  optional_silence.txt  silence_phones.txt
 
+cp CUCFN/Definition/monophones lang_prep/local/dict/nonsilence_phones.txt
+cp lang_prep_vystadial/local/dict/silence_phones.txt lang_prep/local/dict/silence_phones.txt
+echo -n > lang_prep/local/dict/extra_questions.txt
+iconv -f ISO-8859-2 -t UTF-8 CUCFN/Definition/czechbeep.dict -o lang_prep/local/dict/lexicon.txt
+
+
