@@ -303,7 +303,7 @@ cat pom | sort | grep -Ev '^cls' | sort  > wav.scp
 %% dodělat: je třeba fixnout správné pořadí, nezapomenout se dívat do run.sh
 ve vystadial_cz/s5
 je třeba udělat soubor: feats.scp, nasledujicim prikazem:
-8. steps/make_mfcc.sh --mfcc-config common/mfcc.conf --cmd "run.pl --mem 4G" --nj 2 lang_prep/train exp/make_mfcc/train mfcc
+steps/make_mfcc.sh --nj 20 --cmd "$train_cmd" data/train exp/make_mfcc/train $mfccdir8. steps/make_mfcc.sh --mfcc-config common/mfcc.conf --cmd "run.pl --mem 4G" --nj 2 lang_prep/train exp/make_mfcc/train mfcc
  spouštět z s5
  problém se sortem je takovýto: v programu se třídí lexikograficky, zatímo můj
  sort zesortí utt2spk při výrobě nějakým jiným sortem..., nutno nějak fixnout
@@ -364,4 +364,9 @@ _NOISE_ NOI
 _SIL_ SIL
 # lexicon.txt musí být setřízený
 
+
 # vocab-oov.txt je prázdný, zkopírován z vystadial
+
+nyní musím opravit trans.txt, které není správně. podívat se na LMs, vyrobit G
+transducer a začít
+pomalu trénovat
