@@ -331,9 +331,28 @@ Musíme sami připravit adresář dict
 s5# ls data/local/dict
 extra_questions.txt  lexicon.txt nonsilence_phones.txt  optional_silence.txt  silence_phones.txt
 
+----z adresáře s5:
 cp CUCFN/Definition/monophones lang_prep/local/dict/nonsilence_phones.txt
 cp lang_prep_vystadial/local/dict/silence_phones.txt lang_prep/local/dict/silence_phones.txt
 echo -n > lang_prep/local/dict/extra_questions.txt
 iconv -f ISO-8859-2 -t UTF-8 CUCFN/Definition/czechbeep.dict -o lang_prep/local/dict/lexicon.txt
+
+cat lang_prep/train/text | cut -d " " -f 2- | tr ' ' '\n' | sort | uniq | wc
+-l > lang_prep/train/slovnik-z-train.dict
+
+cp lang_prep_vystadial/local/dict/optional_silence.txt lang_prep/local/dict/
+
+utils/prepare_lang.sh lang_prep/local/dict '_SIL_' lang_prep/local/lang lang_prep/lang
+cat lang_prep/local/dict/lexicon.txt | sort| uniq > lang_prep/local/dict/pom
+cat lang_prep/local/dict/pom > lang_prep/local/dict/lexicon.txt 
+
+
+#vyhazuje chyby: Checking lang_prep/local/dict/lexicon.txt
+#--> reading lang_prep/local/dict/lexicon.txt
+#--> ERROR: empty lexicon line in lang_prep/local/dict/lexicon.txt ---> nutno
+smazat první řádek (jediný prázdný)
+#--> ERROR: lexicon.txt contains word  with empty pronunciation.
+
+Už se povedlo, ale napsalo to: sym2int.pl: undefined symbol _SIL_ (in position 1)
 
 
