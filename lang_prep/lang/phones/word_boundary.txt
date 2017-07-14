@@ -63,10 +63,6 @@ ee_B begin
 ee_E end
 ee_I internal
 ee_S singleton
-ew_B begin
-ew_E end
-ew_I internal
-ew_S singleton
 f_B begin
 f_E end
 f_I internal
@@ -103,10 +99,6 @@ m_B begin
 m_E end
 m_I internal
 m_S singleton
-mg_B begin
-mg_E end
-mg_I internal
-mg_S singleton
 n_B begin
 n_E end
 n_I internal
@@ -123,10 +115,6 @@ o_B begin
 o_E end
 o_I internal
 o_S singleton
-oo_B begin
-oo_E end
-oo_I internal
-oo_S singleton
 ow_B begin
 ow_E end
 ow_I internal
@@ -155,6 +143,10 @@ sh_B begin
 sh_E end
 sh_I internal
 sh_S singleton
+sil_B begin
+sil_E end
+sil_I internal
+sil_S singleton
 t_B begin
 t_E end
 t_I internal

@@ -13,7 +13,6 @@ shared split d_B d_E d_I d_S
 shared split dj_B dj_E dj_I dj_S
 shared split e_B e_E e_I e_S
 shared split ee_B ee_E ee_I ee_S
-shared split ew_B ew_E ew_I ew_S
 shared split f_B f_E f_I f_S
 shared split g_B g_E g_I g_S
 shared split h_B h_E h_I h_S
@@ -23,12 +22,10 @@ shared split j_B j_E j_I j_S
 shared split k_B k_E k_I k_S
 shared split l_B l_E l_I l_S
 shared split m_B m_E m_I m_S
-shared split mg_B mg_E mg_I mg_S
 shared split n_B n_E n_I n_S
 shared split ng_B ng_E ng_I ng_S
 shared split nj_B nj_E nj_I nj_S
 shared split o_B o_E o_I o_S
-shared split oo_B oo_E oo_I oo_S
 shared split ow_B ow_E ow_I ow_S
 shared split p_B p_E p_I p_S
 shared split r_B r_E r_I r_S
@@ -36,6 +33,7 @@ shared split rsh_B rsh_E rsh_I rsh_S
 shared split rzh_B rzh_E rzh_I rzh_S
 shared split s_B s_E s_I s_S
 shared split sh_B sh_E sh_I sh_S
+shared split sil_B sil_E sil_I sil_S
 shared split t_B t_E t_I t_S
 shared split tj_B tj_E tj_I tj_S
 shared split u_B u_E u_I u_S

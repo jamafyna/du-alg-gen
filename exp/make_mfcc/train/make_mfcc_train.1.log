@@ -1,8 +1,8 @@
-# compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/mfcc/raw_mfcc_train.1.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/mfcc/raw_mfcc_train.1.scp 
-# Started at Tue Jul 11 10:24:10 CEST 2017
+# compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.1.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.1.scp 
+# Started at Fri Jul 14 01:14:16 CEST 2017
 #
-copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/mfcc/raw_mfcc_train.1.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/mfcc/raw_mfcc_train.1.scp 
-compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/exp/make_mfcc/train/wav_train.1.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.1.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.1.scp 
 VLOG[2] (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:178) Processed features for key 0-0
 VLOG[2] (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:178) Processed features for key 0-1
 VLOG[2] (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:178) Processed features for key 0-10
@@ -3085,5 +3085,5 @@ LOG (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:177) Proces
 VLOG[2] (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:178) Processed features for key 50-99
 LOG (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:181)  Done 2800 out of 2800 utterances.
 LOG (copy-feats[5.1.66~1-81346]:main():copy-feats.cc:132) Copied 2800 feature matrices.
-# Accounting: time=199 threads=1
-# Ended (code 0) at Tue Jul 11 10:27:29 CEST 2017, elapsed time 199 seconds
+# Accounting: time=253 threads=1
+# Ended (code 0) at Fri Jul 14 01:18:29 CEST 2017, elapsed time 253 seconds

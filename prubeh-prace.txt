@@ -370,3 +370,10 @@ _SIL_ SIL
 nyní musím opravit trans.txt, které není správně. podívat se na LMs, vyrobit G
 transducer a začít
 pomalu trénovat
+
+
+hm, trans je stejne jako text, akorat je v jinem adresari
+zkopirovany soubory z lang_prep/train do lang_prep/local/train
+
+local/create_LMs.sh lang_prep/local/ lang_prep/local/train/trans.txt lang_prep/local/test/trans.txt  lang_prep/local/lm "$LMs"
+

@@ -8,7 +8,6 @@ d
 dj
 e
 ee
-ew
 f
 g
 h
@@ -18,12 +17,10 @@ j
 k
 l
 m
-mg
 n
 ng
 nj
 o
-oo
 ow
 p
 r
@@ -31,6 +28,7 @@ rsh
 rzh
 s
 sh
+sil
 t
 tj
 u
