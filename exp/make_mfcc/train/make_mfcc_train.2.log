@@ -1,5 +1,5 @@
 # compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/exp/make_mfcc/train/wav_train.2.scp ark:- | copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.2.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.2.scp 
-# Started at Fri Jul 14 01:14:16 CEST 2017
+# Started at Fri Jul 14 04:06:18 CEST 2017
 #
 copy-feats --compress=true ark:- ark,scp:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.2.ark,/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/lang_prep/mfcc/raw_mfcc_train.2.scp 
 compute-mfcc-feats --verbose=2 --config=common/mfcc.conf scp,p:/afs/ms/u/n/novotj35/Documents/mgr-studium/algoritmy-rozpozn-mluv-reci_npfl079/kaldi/egs/myproj/s5/exp/make_mfcc/train/wav_train.2.scp ark:- 
@@ -3085,5 +3085,5 @@ LOG (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:177) Proces
 VLOG[2] (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:178) Processed features for key 9-99
 LOG (compute-mfcc-feats[5.1.66~1-81346]:main():compute-mfcc-feats.cc:181)  Done 2800 out of 2800 utterances.
 LOG (copy-feats[5.1.66~1-81346]:main():copy-feats.cc:132) Copied 2800 feature matrices.
-# Accounting: time=241 threads=1
-# Ended (code 0) at Fri Jul 14 01:18:17 CEST 2017, elapsed time 241 seconds
+# Accounting: time=216 threads=1
+# Ended (code 0) at Fri Jul 14 04:09:54 CEST 2017, elapsed time 216 seconds

@@ -247,7 +247,7 @@ AUTOMOBILU AUTOMOBILU aw_B t_I o_I m_I o_I b_I i_I l_I u_E
 AUTOMOBILY AUTOMOBILY aw_B t_I o_I m_I o_I b_I i_I l_I i_E
 AUTOMOBILŮ AUTOMOBILŮ aw_B t_I o_I m_I o_I b_I i_I l_I uu_E
 AUTOOPRAVÁRENSTVÍ AUTOOPRAVÁRENSTVÍ aw_B t_I o_I o_I p_I r_I a_I v_I aa_I r_I e_I n_I s_I t_I v_I ii_E
-AUTOOPRAVÁŘ AUTOOPRAVÁŘ aw_B t_I o_I o_I p_I r_I a_I v_I aa_I rzh_E
+AUTOOPRAVÁŘ AUTOOPRAVÁŘ aw_B t_I o_I o_I p_I r_I a_I v_I aa_I rsh_E
 AUTOR AUTOR aw_B t_I o_I r_E
 AUTORA AUTORA aw_B t_I o_I r_I a_E
 AUTORIZOVANÝM AUTORIZOVANÝM aw_B t_I o_I r_I i_I z_I o_I v_I a_I n_I ii_I m_E
@@ -1103,7 +1103,6 @@ DIVADLA DIVADLA dj_B i_I v_I a_I d_I l_I a_E
 DIVADLE DIVADLE dj_B i_I v_I a_I d_I l_I e_E
 DIVERZIFIKACE DIVERZIFIKACE dj_B i_I v_I e_I r_I z_I i_I f_I i_I k_I a_I c_I e_E
 DIVERZIFIKACI DIVERZIFIKACI dj_B i_I v_I e_I r_I z_I i_I f_I i_I k_I a_I c_I i_E
-DIVIDEND DIVIDEND d_B i_I v_I i_I d_I e_I n_I d_E
 DIVIDEND DIVIDEND d_B i_I v_I i_I d_I e_I n_I t_E
 DIVIDENDOVOU DIVIDENDOVOU d_B i_I v_I i_I d_I e_I n_I d_I o_I v_I ow_E
 DIVIDENDU DIVIDENDU d_B i_I v_I i_I d_I e_I n_I d_I u_E
@@ -1145,7 +1144,6 @@ DLOUHÉ DLOUHÉ d_B l_I ow_I h_I ee_E
 DLOUHÉHO DLOUHÉHO d_B l_I ow_I h_I ee_I h_I o_E
 DLOUHÉM DLOUHÉM d_B l_I ow_I h_I ee_I m_E
 DLOUHÝ DLOUHÝ d_B l_I ow_I h_I ii_E
-DLUH DLUH d_B l_I u_I h_E
 DLUH DLUH d_B l_I u_I x_E
 DLUHU DLUHU d_B l_I u_I h_I u_E
 DLUHY DLUHY d_B l_I u_I h_I i_E
@@ -1372,7 +1370,6 @@ DOPORUČUJEME DOPORUČUJEME d_B o_I p_I o_I r_I u_I ch_I u_I j_I e_I m_I e_E
 DOPORUČUJI DOPORUČUJI d_B o_I p_I o_I r_I u_I ch_I u_I j_I i_E
 DOPORUČUJÍ DOPORUČUJÍ d_B o_I p_I o_I r_I u_I ch_I u_I j_I ii_E
 DOPORUČÍ DOPORUČÍ d_B o_I p_I o_I r_I u_I ch_I ii_E
-DOPOSUD DOPOSUD d_B o_I p_I o_I s_I u_I d_E
 DOPOSUD DOPOSUD d_B o_I p_I o_I s_I u_I t_E
 DOPOUŠTÍ DOPOUŠTÍ d_B o_I p_I ow_I sh_I tj_I ii_E
 DOPOUŠTĚLA DOPOUŠTĚLA d_B o_I p_I ow_I sh_I tj_I e_I l_I a_E
@@ -1490,7 +1487,6 @@ DOVOLIT DOVOLIT d_B o_I v_I o_I l_I i_I t_E
 DOVOLUJE DOVOLUJE d_B o_I v_I o_I l_I u_I j_I e_E
 DOVOLÍ DOVOLÍ d_B o_I v_I o_I l_I ii_E
 DOVOZ DOVOZ d_B o_I v_I o_I s_E
-DOVOZ DOVOZ d_B o_I v_I o_I z_E
 DOVOZCE DOVOZCE d_B o_I v_I o_I s_I c_I e_E
 DOVOZEM DOVOZEM d_B o_I v_I o_I z_I e_I m_E
 DOVOZNÍ DOVOZNÍ d_B o_I v_I o_I z_I nj_I ii_E
@@ -1522,7 +1518,6 @@ DOŠEL DOŠEL d_B o_I sh_I e_I l_E
 DOŠLO DOŠLO d_B o_I sh_I l_I o_E
 DOŽADOVAT DOŽADOVAT d_B o_I zh_I a_I d_I o_I v_I a_I t_E
 DOŽIVOTNÍHO DOŽIVOTNÍHO d_B o_I zh_I i_I v_I o_I t_I nj_I ii_I h_I o_E
-DPH DPH d_B b_I h_E
 DPH DPH d_B b_I x_E
 DRAH DRAH d_B r_I a_I x_E
 DRAHOKAMY DRAHOKAMY d_B r_I a_I h_I o_I k_I a_I m_I i_E
@@ -2077,12 +2072,11 @@ FIXNÍ FIXNÍ f_B i_I k_I s_I nj_I ii_E
 FLEGMATIK FLEGMATIK f_B l_I e_I g_I m_I a_I t_I i_I k_E
 FLORENSKÉHO FLORENSKÉHO f_B l_I o_I r_I e_I n_I s_I k_I ee_I h_I o_E
 FLORENUS FLORENUS f_B l_I o_I r_I e_I n_I u_I s_E
-FLOW FLOW f_B l_I o_I v_E
+FLOW FLOW f_B l_I o_I f_E
 FLUKTUACE FLUKTUACE f_B l_I u_I k_I t_I u_I a_I c_I e_E
 FLÁKAT FLÁKAT f_B l_I aa_I k_I a_I t_E
 FOJTOVÁ FOJTOVÁ f_B o_I j_I t_I o_I v_I aa_E
 FOLKLÓRU FOLKLÓRU f_B o_I l_I k_I l_I o_I r_I u_E
-FOND FOND f_B o_I n_I d_E
 FOND FOND f_B o_I n_I t_E
 FONDEM FONDEM f_B o_I n_I d_I e_I m_E
 FONDU FONDU f_B o_I n_I d_I u_E
@@ -2096,7 +2090,6 @@ FORINTŮ FORINTŮ f_B o_I r_I i_I n_I t_I uu_E
 FORMA FORMA f_B o_I r_I m_I a_E
 FORMALITAMI FORMALITAMI f_B o_I r_I m_I a_I l_I i_I t_I a_I m_I i_E
 FORMANOVĚ FORMANOVĚ f_B o_I r_I m_I a_I n_I o_I v_I j_I e_E
-FORMED FORMED f_B o_I r_I m_I e_I d_E
 FORMED FORMED f_B o_I r_I m_I e_I t_E
 FORMOU FORMOU f_B o_I r_I m_I ow_E
 FORMU FORMU f_B o_I r_I m_I u_E
@@ -2189,7 +2182,7 @@ GIGANT GIGANT g_B i_I g_I a_I n_I t_E
 GIOVANNI GIOVANNI g_B i_I o_I v_I a_I nj_I i_E
 GIOVANNIHO GIOVANNIHO g_B i_I o_I v_I a_I nj_I i_I h_I o_E
 GLOBALIZUJÍ GLOBALIZUJÍ g_B l_I o_I b_I a_I l_I i_I z_I u_I j_I ii_E
-GOGH GOGH g_B o_I g_I h_E
+GOGH GOGH g_B o_I g_I x_E
 GOGHŮ GOGHŮ g_B o_I g_I h_I uu_E
 GOLF GOLF g_B o_I l_I f_E
 GORENJE GORENJE g_B o_I r_I e_I nj_I e_E
@@ -2250,7 +2243,7 @@ HISTORII HISTORII h_B i_I s_I t_I o_I r_I i_I i_E
 HISTORIKŮ HISTORIKŮ h_B i_I s_I t_I o_I r_I i_I k_I uu_E
 HISTORKA HISTORKA h_B i_I s_I t_I o_I r_I k_I a_E
 HIT HIT h_B i_I t_E
-HLAD HLAD h_B l_I a_I d_E
+HLAD HLAD h_B l_I a_I t_E
 HLADINA HLADINA h_B l_I a_I dj_I i_I n_I a_E
 HLADINU HLADINU h_B l_I a_I dj_I i_I n_I u_E
 HLASITÉ HLASITÉ h_B l_I a_I s_I i_I t_I ee_E
@@ -2502,7 +2495,6 @@ IDEÁLNÍCH IDEÁLNÍCH i_B d_I e_I aa_I l_I nj_I ii_I x_E
 IDEÁLNÍM IDEÁLNÍM i_B d_I e_I aa_I l_I nj_I ii_I m_E
 IGNORANTA IGNORANTA i_B g_I n_I o_I r_I a_I n_I t_I a_E
 IH IH i_B x_E
-IHNED IHNED i_B h_I n_I e_I d_E
 IHNED IHNED i_B h_I n_I e_I t_E
 ILJA ILJA i_B l_I j_I a_E
 ILUZORNÍ ILUZORNÍ i_B l_I u_I z_I o_I r_I nj_I ii_E
@@ -2963,7 +2955,6 @@ KANALIZACE KANALIZACE k_B a_I n_I a_I l_I i_I z_I a_I c_I e_E
 KANAĎANÉ KANAĎANÉ k_B a_I n_I a_I dj_I a_I n_I ee_E
 KANAĎANŮ KANAĎANŮ k_B a_I n_I a_I dj_I a_I n_I uu_E
 KANCELÁŘ KANCELÁŘ k_B a_I n_I c_I e_I l_I aa_I rsh_E
-KANCELÁŘ KANCELÁŘ k_B a_I n_I c_I e_I l_I aa_I rzh_E
 KANCELÁŘE KANCELÁŘE k_B a_I n_I c_I e_I l_I aa_I rzh_I e_E
 KANCELÁŘI KANCELÁŘI k_B a_I n_I c_I e_I l_I aa_I rzh_I i_E
 KANCELÁŘSKÉHO KANCELÁŘSKÉHO k_B a_I n_I c_I e_I l_I aa_I rsh_I s_I k_I ee_I h_I o_E
@@ -3025,7 +3016,6 @@ KARÁTU KARÁTU k_B a_I r_I aa_I t_I u_E
 KARÁTŮ KARÁTŮ k_B a_I r_I aa_I t_I uu_E
 KASKÁDOU KASKÁDOU k_B a_I s_I k_I aa_I d_I ow_E
 KASY KASY k_B a_I s_I i_E
-KATALOG KATALOG k_B a_I t_I a_I l_I o_I g_E
 KATALOG KATALOG k_B a_I t_I a_I l_I o_I k_E
 KATALOGOVÉ KATALOGOVÉ k_B a_I t_I a_I l_I o_I g_I o_I v_I ee_E
 KATALOGU KATALOGU k_B a_I t_I a_I l_I o_I g_I u_E
@@ -3296,7 +3286,6 @@ KONKUREČNÍ KONKUREČNÍ k_B o_I ng_I k_I u_I r_I e_I ch_I nj_I ii_E
 KONKURSU KONKURSU k_B o_I ng_I k_I u_I r_I s_I u_E
 KONKURUJÍCÍCH KONKURUJÍCÍCH k_B o_I ng_I k_I u_I r_I u_I j_I ii_I c_I ii_I x_E
 KONKURZ KONKURZ k_B o_I ng_I k_I u_I r_I s_E
-KONKURZ KONKURZ k_B o_I ng_I k_I u_I r_I z_E
 KONKURZNÍ KONKURZNÍ k_B o_I ng_I k_I u_I r_I z_I nj_I ii_E
 KONKURZNÍCH KONKURZNÍCH k_B o_I ng_I k_I u_I r_I z_I nj_I ii_I x_E
 KONKURZU KONKURZU k_B o_I ng_I k_I u_I r_I z_I u_E
@@ -3679,7 +3668,6 @@ LASEROVÝ LASEROVÝ l_B a_I s_I e_I r_I o_I v_I ii_E
 LASEROVÝCH LASEROVÝCH l_B a_I s_I e_I r_I o_I v_I ii_I x_E
 LASKAVÉ LASKAVÉ l_B a_I s_I k_I a_I v_I ee_E
 LASKAVÝ LASKAVÝ l_B a_I s_I k_I a_I v_I ii_E
-LEASING LEASING l_B e_I a_I s_I i_I ng_I g_E
 LEASING LEASING l_B e_I a_I s_I i_I ng_I k_E
 LEASINGOVOU LEASINGOVOU l_B e_I a_I s_I i_I ng_I g_I o_I v_I ow_E
 LEASINGOVÁ LEASINGOVÁ l_B e_I a_I s_I i_I ng_I g_I o_I v_I aa_E
@@ -3688,7 +3676,7 @@ LEASINGOVÝ LEASINGOVÝ l_B e_I a_I s_I i_I ng_I g_I o_I v_I ii_E
 LEASINGOVÝCH LEASINGOVÝCH l_B e_I a_I s_I i_I ng_I g_I o_I v_I ii_I x_E
 LEASINGU LEASINGU l_B e_I a_I s_I i_I ng_I g_I u_E
 LECCOS LECCOS l_B e_I c_I o_I s_E
-LED LED l_B e_I d_E
+LED LED l_B e_I t_E
 LEDA LEDA l_B e_I d_I a_E
 LEDEN LEDEN l_B e_I d_I e_I n_E
 LEDEČ LEDEČ l_B e_I d_I e_I ch_E
@@ -3891,7 +3879,7 @@ LUCERNAFILM LUCERNAFILM l_B u_I c_I e_I r_I n_I a_I f_I i_I l_I m_E
 LUCERNAFILMU LUCERNAFILMU l_B u_I c_I e_I r_I n_I a_I f_I i_I l_I m_I u_E
 LUDMILA LUDMILA l_B u_I d_I m_I i_I l_I a_E
 LUPIČE LUPIČE l_B u_I p_I i_I ch_I e_E
-LUSTIG LUSTIG l_B u_I s_I tj_I i_I g_E
+LUSTIG LUSTIG l_B u_I s_I tj_I i_I k_E
 LUXE LUXE l_B u_I k_I s_I e_E
 LUXOVAT LUXOVAT l_B u_I k_I s_I o_I v_I a_I t_E
 LUXUSNÍ LUXUSNÍ l_B u_I k_I s_I u_I s_I nj_I ii_E
@@ -3978,7 +3966,7 @@ MAKRELAMI MAKRELAMI m_B a_I k_I r_I e_I l_I a_I m_I i_E
 MALBY MALBY m_B a_I l_I b_I i_E
 MALEŠICÍCH MALEŠICÍCH m_B a_I l_I e_I sh_I i_I c_I ii_I x_E
 MALIČKOSTI MALIČKOSTI m_B a_I l_I i_I ch_I k_I o_I s_I tj_I i_E
-MALOOBCHOD MALOOBCHOD m_B a_I l_I o_I o_I p_I x_I o_I d_E
+MALOOBCHOD MALOOBCHOD m_B a_I l_I o_I o_I p_I x_I o_I t_E
 MALOOBCHODNÍ MALOOBCHODNÍ m_B a_I l_I o_I o_I p_I x_I o_I d_I nj_I ii_E
 MALOPRODEJCŮ MALOPRODEJCŮ m_B a_I l_I o_I p_I r_I o_I d_I e_I j_I c_I uu_E
 MALOU MALOU m_B a_I l_I ow_E
@@ -4042,7 +4030,6 @@ MARK MARK m_B a_I r_I k_E
 MARKA MARKA m_B a_I r_I k_I a_E
 MARKEST MARKEST m_B a_I r_I k_I e_I s_I t_E
 MARKET MARKET m_B a_I r_I k_I e_I t_E
-MARKETING MARKETING m_B a_I r_I k_I e_I t_I i_I ng_I g_E
 MARKETING MARKETING m_B a_I r_I k_I e_I t_I i_I ng_I k_E
 MARKETINGOVÁ MARKETINGOVÁ m_B a_I r_I k_I e_I t_I i_I ng_I g_I o_I v_I aa_E
 MARKETINGOVÉ MARKETINGOVÉ m_B a_I r_I k_I e_I t_I i_I ng_I g_I o_I v_I ee_E
@@ -4125,7 +4112,6 @@ METRU METRU m_B e_I t_I r_I u_E
 METRŮ METRŮ m_B e_I t_I r_I uu_E
 MEXIKU MEXIKU m_B e_I k_I s_I i_I k_I u_E
 MEZD MEZD m_B e_I s_I t_E
-MEZD MEZD m_B e_I z_I d_E
 MEZE MEZE m_B e_I z_I e_E
 MEZEK MEZEK m_B e_I z_I e_I k_E
 MEZERU MEZERU m_B e_I z_I e_I r_I u_E
@@ -4156,7 +4142,6 @@ MIKROORGANISMY MIKROORGANISMY m_B i_I k_I r_I o_I o_I r_I g_I a_I n_I i_I s_I m_
 MIKROVLNNÝ MIKROVLNNÝ m_B i_I k_I r_I o_I v_I l_I n_I ii_E
 MILAN MILAN m_B i_I l_I a_I n_E
 MILE MILE m_B i_I l_I e_E
-MILIARD MILIARD m_B i_I l_I i_I a_I r_I d_E
 MILIARD MILIARD m_B i_I l_I i_I a_I r_I t_E
 MILIARDA MILIARDA m_B i_I l_I i_I a_I r_I d_I a_E
 MILIARDU MILIARDU m_B i_I l_I i_I a_I r_I d_I u_E
@@ -4920,7 +4905,7 @@ NEGATIVNÍMI NEGATIVNÍMI n_B e_I g_I a_I t_I i_I v_I nj_I ii_I m_I i_E
 NEGATIVNĚ NEGATIVNĚ n_B e_I g_I a_I t_I i_I v_I nj_I e_E
 NEHLEDĚ NEHLEDĚ n_B e_I h_I l_I e_I dj_I e_E
 NEHLEDĚLO NEHLEDĚLO n_B e_I h_I l_I e_I dj_I e_I l_I o_E
-NEHOD NEHOD n_B e_I h_I o_I d_E
+NEHOD NEHOD n_B e_I h_I o_I t_E
 NEHODÍ NEHODÍ n_B e_I h_I o_I dj_I ii_E
 NEHOVOŘIL NEHOVOŘIL n_B e_I h_I o_I v_I o_I rzh_I i_I l_E
 NEHRNE NEHRNE n_B e_I h_I r_I n_I e_E
@@ -4961,7 +4946,7 @@ NEJEZDÍ NEJEZDÍ n_B e_I j_I e_I z_I dj_I ii_E
 NEJFREKVENTOVANĚJŠÍCH NEJFREKVENTOVANĚJŠÍCH n_B e_I j_I f_I r_I e_I k_I v_I e_I n_I t_I o_I v_I a_I nj_I e_I j_I sh_I ii_I x_E
 NEJHORŠÍ NEJHORŠÍ n_B e_I j_I h_I o_I r_I sh_I ii_E
 NEJHORŠÍM NEJHORŠÍM n_B e_I j_I h_I o_I r_I sh_I ii_I m_E
-NEJHŮŘ NEJHŮŘ n_B e_I j_I h_I uu_I rzh_E
+NEJHŮŘ NEJHŮŘ n_B e_I j_I h_I uu_I rsh_E
 NEJHŮŘE NEJHŮŘE n_B e_I j_I h_I uu_I rzh_I e_E
 NEJISTÉM NEJISTÉM n_B e_I j_I i_I s_I t_I ee_I m_E
 NEJISTĚJI NEJISTĚJI n_B e_I j_I i_I s_I tj_I e_I j_I i_E
@@ -5907,7 +5892,6 @@ OBAV OBAV o_B b_I a_I f_E
 OBAVY OBAVY o_B b_I a_I v_I i_E
 OBAVĚ OBAVĚ o_B b_I a_I v_I j_I e_E
 OBCE OBCE o_B p_I c_I e_E
-OBCHOD OBCHOD o_B p_I x_I o_I d_E
 OBCHOD OBCHOD o_B p_I x_I o_I t_E
 OBCHODECH OBCHODECH o_B p_I x_I o_I d_I e_I x_E
 OBCHODEM OBCHODEM o_B p_I x_I o_I d_I e_I m_E
@@ -6044,7 +6028,6 @@ OBRATEM OBRATEM o_B b_I r_I a_I t_I e_I m_E
 OBRATLŮ OBRATLŮ o_B b_I r_I a_I t_I l_I uu_E
 OBRATU OBRATU o_B b_I r_I a_I t_I u_E
 OBRAZ OBRAZ o_B b_I r_I a_I s_E
-OBRAZ OBRAZ o_B b_I r_I a_I z_E
 OBRAZECH OBRAZECH o_B b_I r_I a_I z_I e_I x_E
 OBRAZEM OBRAZEM o_B b_I r_I a_I z_I e_I m_E
 OBRAZOVÉ OBRAZOVÉ o_B b_I r_I a_I z_I o_I v_I ee_E
@@ -6277,7 +6260,6 @@ ODNÉST ODNÉST o_B d_I n_I ee_I s_I t_E
 ODNĚTÍ ODNĚTÍ o_B d_I nj_I e_I tj_I ii_E
 ODNĚTÍM ODNĚTÍM o_B d_I nj_I e_I tj_I ii_I m_E
 ODOLNOSTI ODOLNOSTI o_B d_I o_I l_I n_I o_I s_I tj_I i_E
-ODPAD ODPAD o_B t_I p_I a_I d_E
 ODPAD ODPAD o_B t_I p_I a_I t_E
 ODPADAJÍ ODPADAJÍ o_B t_I p_I a_I d_I a_I j_I ii_E
 ODPADLA ODPADLA o_B t_I p_I a_I d_I l_I a_E
@@ -6612,7 +6594,6 @@ OSMNÁCTÉ OSMNÁCTÉ o_B s_I m_I n_I aa_I c_I t_I ee_E
 OSMOU OSMOU o_B s_I m_I ow_E
 OSMÉ OSMÉ o_B s_I m_I ee_E
 OSMÉHO OSMÉHO o_B s_I m_I ee_I h_I o_E
-OSOB OSOB o_B s_I o_I b_E
 OSOB OSOB o_B s_I o_I p_E
 OSOBA OSOBA o_B s_I o_I b_I a_E
 OSOBNOSTEM OSOBNOSTEM o_B s_I o_I b_I n_I o_I s_I t_I e_I m_E
@@ -6896,7 +6877,6 @@ PELERÍNA PELERÍNA p_B e_I l_I e_I r_I ii_I n_I a_E
 PENÁLE PENÁLE p_B e_I n_I aa_I l_I e_E
 PENÍZE PENÍZE p_B e_I nj_I ii_I z_I e_E
 PENĚZ PENĚZ p_B e_I nj_I e_I s_E
-PENĚZ PENĚZ p_B e_I nj_I e_I z_E
 PENĚZI PENĚZI p_B e_I nj_I e_I z_I i_E
 PENĚŽENKU PENĚŽENKU p_B e_I nj_I e_I zh_I e_I ng_I k_I u_E
 PENĚŽENKY PENĚŽENKY p_B e_I nj_I e_I zh_I e_I ng_I k_I i_E
@@ -7043,7 +7023,7 @@ PLÁTCŮ PLÁTCŮ p_B l_I aa_I t_I c_I uu_E
 PLÁTNA PLÁTNA p_B l_I aa_I t_I n_I a_E
 PLÁTNO PLÁTNO p_B l_I aa_I t_I n_I o_E
 PLÁŠŤ PLÁŠŤ p_B l_I aa_I sh_I tj_E
-PLÁŽ PLÁŽ p_B l_I aa_I zh_E
+PLÁŽ PLÁŽ p_B l_I aa_I sh_E
 PNEUMATIKY PNEUMATIKY p_B n_I e_I u_I m_I a_I t_I i_I k_I i_E
 PO PO p_B o_E
 POBOČKA POBOČKA p_B o_I b_I o_I ch_I k_I a_E
@@ -7244,7 +7224,6 @@ PODŘÍZENÝMI PODŘÍZENÝMI p_B o_I d_I rzh_I ii_I z_I e_I n_I ii_I m_I i_E
 POHLCEN POHLCEN p_B o_I h_I l_I c_I e_I n_E
 POHLCENÍ POHLCENÍ p_B o_I h_I l_I c_I e_I nj_I ii_E
 POHLCOVÁNY POHLCOVÁNY p_B o_I h_I l_I c_I o_I v_I aa_I n_I i_E
-POHLED POHLED p_B o_I h_I l_I e_I d_E
 POHLED POHLED p_B o_I h_I l_I e_I t_E
 POHLEDU POHLEDU p_B o_I h_I l_I e_I d_I u_E
 POHLEDÁVEK POHLEDÁVEK p_B o_I h_I l_I e_I d_I aa_I v_I e_I k_E
@@ -7537,7 +7516,6 @@ POSTAVENÝCH POSTAVENÝCH p_B o_I s_I t_I a_I v_I e_I n_I ii_I x_E
 POSTAČUJÍCÍ POSTAČUJÍCÍ p_B o_I s_I t_I a_I ch_I u_I j_I ii_I c_I ii_E
 POSTAČÍ POSTAČÍ p_B o_I s_I t_I a_I ch_I ii_E
 POSTGRADUÁLNÍ POSTGRADUÁLNÍ p_B o_I z_I d_I g_I r_I a_I d_I u_I aa_I l_I nj_I ii_E
-POSTIH POSTIH p_B o_I s_I tj_I i_I h_E
 POSTIH POSTIH p_B o_I s_I tj_I i_I x_E
 POSTIHLA POSTIHLA p_B o_I s_I tj_I i_I h_I l_I a_E
 POSTIHLO POSTIHLO p_B o_I s_I tj_I i_I h_I l_I o_E
@@ -7615,7 +7593,6 @@ POTĚŠEN POTĚŠEN p_B o_I tj_I e_I sh_I e_I n_E
 POTĚŠILY POTĚŠILY p_B o_I tj_I e_I sh_I i_I l_I i_E
 POTĚŠITELNÉ POTĚŠITELNÉ p_B o_I tj_I e_I sh_I i_I t_I e_I l_I n_I ee_E
 POTĚŠUJÍCÍ POTĚŠUJÍCÍ p_B o_I tj_I e_I sh_I u_I j_I ii_I c_I ii_E
-POTŘEB POTŘEB p_B o_I t_I rsh_I e_I b_E
 POTŘEB POTŘEB p_B o_I t_I rsh_I e_I p_E
 POTŘEBA POTŘEBA p_B o_I t_I rsh_I e_I b_I a_E
 POTŘEBAMI POTŘEBAMI p_B o_I t_I rsh_I e_I b_I a_I m_I i_E
@@ -8047,7 +8024,7 @@ PRODEJNĚ PRODEJNĚ p_B r_I o_I d_I e_I j_I nj_I e_E
 PRODEJÍCH PRODEJÍCH p_B r_I o_I d_I e_I j_I ii_I x_E
 PRODEJŮ PRODEJŮ p_B r_I o_I d_I e_I j_I uu_E
 PRODLENÍ PRODLENÍ p_B r_I o_I d_I l_I e_I nj_I ii_E
-PRODLEV PRODLEV p_B r_I o_I d_I l_I e_I v_E
+PRODLEV PRODLEV p_B r_I o_I d_I l_I e_I f_E
 PRODLOUŽENO PRODLOUŽENO p_B r_I o_I d_I l_I ow_I zh_I e_I n_I o_E
 PRODLOUŽENOU PRODLOUŽENOU p_B r_I o_I d_I l_I ow_I zh_I e_I n_I ow_E
 PRODLOUŽENÉ PRODLOUŽENÉ p_B r_I o_I d_I l_I ow_I zh_I e_I n_I ee_E
@@ -8313,7 +8290,6 @@ PROVIZE PROVIZE p_B r_I o_I v_I i_I z_I e_E
 PROVIZI PROVIZI p_B r_I o_I v_I i_I z_I i_E
 PROVIZORNÍ PROVIZORNÍ p_B r_I o_I v_I i_I z_I o_I r_I nj_I ii_E
 PROVOZ PROVOZ p_B r_I o_I v_I o_I s_E
-PROVOZ PROVOZ p_B r_I o_I v_I o_I z_E
 PROVOZECH PROVOZECH p_B r_I o_I v_I o_I z_I e_I x_E
 PROVOZEM PROVOZEM p_B r_I o_I v_I o_I z_I e_I m_E
 PROVOZNÍ PROVOZNÍ p_B r_I o_I v_I o_I z_I nj_I ii_E
@@ -8579,7 +8555,7 @@ PŘEDKLÁDÁ PŘEDKLÁDÁ p_B rsh_I e_I d_I k_I l_I aa_I d_I aa_E
 PŘEDKLÁDÁNÍ PŘEDKLÁDÁNÍ p_B rsh_I e_I d_I k_I l_I aa_I d_I aa_I nj_I ii_E
 PŘEDKONTRAKTAČNÍ PŘEDKONTRAKTAČNÍ p_B rsh_I e_I d_I k_I o_I n_I t_I r_I a_I k_I t_I a_I ch_I nj_I ii_E
 PŘEDKUPNÍHO PŘEDKUPNÍHO p_B rsh_I e_I d_I k_I u_I p_I nj_I ii_I h_I o_E
-PŘEDLOH PŘEDLOH p_B rsh_I e_I d_I l_I o_I h_E
+PŘEDLOH PŘEDLOH p_B rsh_I e_I d_I l_I o_I x_E
 PŘEDLOHY PŘEDLOHY p_B rsh_I e_I d_I l_I o_I h_I i_E
 PŘEDLOŽEN PŘEDLOŽEN p_B rsh_I e_I d_I l_I o_I zh_I e_I n_E
 PŘEDLOŽIL PŘEDLOŽIL p_B rsh_I e_I d_I l_I o_I zh_I i_I l_E
@@ -8627,7 +8603,6 @@ PŘEDSEDOVA PŘEDSEDOVA p_B rsh_I e_I d_I s_I e_I d_I o_I v_I a_E
 PŘEDSEDOVÁNÍ PŘEDSEDOVÁNÍ p_B rsh_I e_I d_I s_I e_I d_I o_I v_I aa_I nj_I ii_E
 PŘEDSEDY PŘEDSEDY p_B rsh_I e_I d_I s_I e_I d_I i_E
 PŘEDSTAV PŘEDSTAV p_B rsh_I e_I d_I s_I t_I a_I f_E
-PŘEDSTAV PŘEDSTAV p_B rsh_I e_I d_I s_I t_I a_I v_E
 PŘEDSTAVA PŘEDSTAVA p_B rsh_I e_I d_I s_I t_I a_I v_I a_E
 PŘEDSTAVENSTVA PŘEDSTAVENSTVA p_B rsh_I e_I d_I s_I t_I a_I v_I e_I n_I s_I t_I v_I a_E
 PŘEDSTAVENSTVEM PŘEDSTAVENSTVEM p_B rsh_I e_I d_I s_I t_I a_I v_I e_I n_I s_I t_I v_I e_I m_E
@@ -9471,7 +9446,6 @@ ROZHLAS ROZHLAS r_B o_I z_I h_I l_I a_I s_E
 ROZHLASE ROZHLASE r_B o_I z_I h_I l_I a_I s_I e_E
 ROZHLASOVÝ ROZHLASOVÝ r_B o_I z_I h_I l_I a_I s_I o_I v_I ii_E
 ROZHLASOVÝCH ROZHLASOVÝCH r_B o_I z_I h_I l_I a_I s_I o_I v_I ii_I x_E
-ROZHLED ROZHLED r_B o_I z_I h_I l_I e_I d_E
 ROZHLED ROZHLED r_B o_I z_I h_I l_I e_I t_E
 ROZHODL ROZHODL r_B o_I z_I h_I o_I d_I l_E
 ROZHODLA ROZHODLA r_B o_I z_I h_I o_I d_I l_I a_E
@@ -9561,7 +9535,7 @@ ROZUMNÉ ROZUMNÉ r_B o_I z_I u_I m_I n_I ee_E
 ROZUMU ROZUMU r_B o_I z_I u_I m_I u_E
 ROZUMÍ ROZUMÍ r_B o_I z_I u_I m_I ii_E
 ROZUMÍTE ROZUMÍTE r_B o_I z_I u_I m_I ii_I t_I e_E
-ROZVADOV ROZVADOV r_B o_I z_I v_I a_I d_I o_I v_E
+ROZVADOV ROZVADOV r_B o_I z_I v_I a_I d_I o_I f_E
 ROZVAŘENÝMI ROZVAŘENÝMI r_B o_I z_I v_I a_I rzh_I e_I n_I ii_I m_I i_E
 ROZVINOUT ROZVINOUT r_B o_I z_I v_I i_I n_I ow_I t_E
 ROZVINUTÝCH ROZVINUTÝCH r_B o_I z_I v_I i_I n_I u_I t_I ii_I x_E
@@ -9668,7 +9642,6 @@ RYCHLÝ RYCHLÝ r_B i_I x_I l_I ii_E
 RYCHLÝM RYCHLÝM r_B i_I x_I l_I ii_I m_E
 RÁD RÁD r_B aa_I t_E
 RÁDCE RÁDCE r_B aa_I t_I c_I e_E
-RÁDI RÁDI r_B aa_I d_I i_E
 RÁDI RÁDI r_B aa_I dj_I i_E
 RÁDIA RÁDIA r_B aa_I d_I i_I a_E
 RÁJ RÁJ r_B aa_I j_E
@@ -9845,7 +9818,7 @@ SEIFERT SEIFERT s_B e_I i_I f_I e_I r_I t_E
 SEK SEK s_B e_I k_E
 SEKRETÁŘKY SEKRETÁŘKY s_B e_I k_I r_I e_I t_I aa_I rsh_I k_I i_E
 SEKTORU SEKTORU s_B e_I k_I t_I o_I r_I u_E
-SEKUND SEKUND s_B e_I k_I u_I n_I d_E
+SEKUND SEKUND s_B e_I k_I u_I n_I t_E
 SEKUNDY SEKUNDY s_B e_I k_I u_I n_I d_I i_E
 SEM SEM s_B e_I m_E
 SEMENA SEMENA s_B e_I m_I e_I n_I a_E
@@ -10141,7 +10114,6 @@ SLUŽBOU SLUŽBOU s_B l_I u_I zh_I b_I ow_E
 SLUŽBY SLUŽBY s_B l_I u_I zh_I b_I i_E
 SLUŽBÁCH SLUŽBÁCH s_B l_I u_I zh_I b_I aa_I x_E
 SLUŽBÁM SLUŽBÁM s_B l_I u_I zh_I b_I aa_I m_E
-SLUŽEB SLUŽEB s_B l_I u_I zh_I e_I b_E
 SLUŽEB SLUŽEB s_B l_I u_I zh_I e_I p_E
 SLUŽEBNOU SLUŽEBNOU s_B l_I u_I zh_I e_I b_I n_I ow_E
 SLUŽEBNÍ SLUŽEBNÍ s_B l_I u_I zh_I e_I b_I nj_I ii_E
@@ -10229,7 +10201,6 @@ SNIŽUJÍCÍMI SNIŽUJÍCÍMI s_B nj_I i_I zh_I u_I j_I ii_I c_I ii_I m_I i_E
 SNOUBÍ SNOUBÍ s_B n_I ow_I b_I ii_E
 SNY SNY s_B n_I i_E
 SNÁZE SNÁZE s_B n_I aa_I z_I e_E
-SNÍH SNÍH s_B nj_I ii_I h_E
 SNÍH SNÍH s_B nj_I ii_I x_E
 SNÍMEK SNÍMEK s_B nj_I ii_I m_I e_I k_E
 SNÍMKU SNÍMKU s_B nj_I ii_I m_I k_I u_E
@@ -10328,7 +10299,7 @@ SOUSEDNÍMI SOUSEDNÍMI s_B ow_I s_I e_I d_I nj_I ii_I m_I i_E
 SOUSEDÍCÍCH SOUSEDÍCÍCH s_B ow_I s_I e_I dj_I ii_I c_I ii_I x_E
 SOUSEDŮ SOUSEDŮ s_B ow_I s_I e_I d_I uu_E
 SOUSOŠÍ SOUSOŠÍ s_B ow_I s_I o_I sh_I ii_E
-SOUSTAV SOUSTAV s_B ow_I s_I t_I a_I v_E
+SOUSTAV SOUSTAV s_B ow_I s_I t_I a_I f_E
 SOUSTAVNĚ SOUSTAVNĚ s_B ow_I s_I t_I a_I v_I nj_I e_E
 SOUSTAVY SOUSTAVY s_B ow_I s_I t_I a_I v_I i_E
 SOUSTO SOUSTO s_B ow_I s_I t_I o_E
@@ -10710,7 +10681,6 @@ STATKY STATKY s_B t_I a_I t_I k_I i_E
 STATUTÁRNÍHO STATUTÁRNÍHO s_B t_I a_I t_I u_I t_I aa_I r_I nj_I ii_I h_I o_E
 STATĚ STATĚ s_B t_I a_I tj_I e_E
 STAV STAV s_B t_I a_I f_E
-STAV STAV s_B t_I a_I v_E
 STAVAŘ STAVAŘ s_B t_I a_I v_I a_I rsh_E
 STAVAŘINU STAVAŘINU s_B t_I a_I v_I a_I rzh_I i_I n_I u_E
 STAVBY STAVBY s_B t_I a_I v_I b_I i_E
@@ -10741,7 +10711,7 @@ STAČILO STAČILO s_B t_I a_I ch_I i_I l_I o_E
 STAČÍ STAČÍ s_B t_I a_I ch_I ii_E
 STAŘÍ STAŘÍ s_B t_I a_I rzh_I ii_E
 STAŠKA STAŠKA s_B t_I a_I sh_I k_I a_E
-STB STB z_B d_I b_E
+STB STB s_B t_I p_E
 STE STE s_B t_I e_E
 STECH STECH s_B t_I e_I x_E
 STEFANA STEFANA s_B t_I e_I f_I a_I n_I a_E
@@ -11449,7 +11419,6 @@ TRESTNÍHO TRESTNÍHO t_B r_I e_I s_I t_I nj_I ii_I h_I o_E
 TRESTNÍM TRESTNÍM t_B r_I e_I s_I t_I nj_I ii_I m_E
 TRESTNÝ TRESTNÝ t_B r_I e_I s_I t_I n_I ii_E
 TREZORECH TREZORECH t_B r_I e_I z_I o_I r_I e_I x_E
-TRH TRH t_B r_I h_E
 TRH TRH t_B r_I x_E
 TRHEM TRHEM t_B r_I h_I e_I m_E
 TRHU TRHU t_B r_I h_I u_E
@@ -11571,7 +11540,7 @@ TYPU TYPU t_B i_I p_I u_E
 TYPY TYPY t_B i_I p_I i_E
 TYPŮM TYPŮM t_B i_I p_I uu_I m_E
 TYTO TYTO t_B i_I t_I o_E
-TZ TZ d_B z_E
+TZ TZ d_B s_E
 TZV TZV d_B s_I f_E
 TÁBORY TÁBORY t_B aa_I b_I o_I r_I i_E
 TÁHNE TÁHNE t_B aa_I h_I n_I e_E
@@ -12061,7 +12030,6 @@ UŽÍVÁNÍM UŽÍVÁNÍM u_B zh_I ii_I v_I aa_I nj_I ii_I m_E
 UŽŠÍ UŽŠÍ u_B sh_I ii_E
 UŽŠÍM UŽŠÍM u_B sh_I ii_I m_E
 V V f_S
-V V v_S
 VADA VADA v_B a_I d_I a_E
 VADAMU VADAMU v_B a_I d_I a_I m_I u_E
 VADNÝ VADNÝ v_B a_I d_I n_I ii_E
@@ -12877,7 +12845,6 @@ VZROSTLY VZROSTLY v_B z_I r_I o_I s_I t_I l_I i_E
 VZRUŠENÍ VZRUŠENÍ v_B z_I r_I u_I sh_I e_I nj_I ii_E
 VZRŮSTAT VZRŮSTAT v_B z_I r_I uu_I s_I t_I a_I t_E
 VZRŮSTÁ VZRŮSTÁ v_B z_I r_I uu_I s_I t_I aa_E
-VZTAH VZTAH v_B s_I t_I a_I h_E
 VZTAH VZTAH v_B s_I t_I a_I x_E
 VZTAHU VZTAHU v_B s_I t_I a_I h_I u_E
 VZTAHUJE VZTAHUJE v_B s_I t_I a_I h_I u_I j_I e_E
@@ -12928,7 +12895,7 @@ VÍCE VÍCE v_B ii_I c_I e_E
 VÍCEDENNÍMI VÍCEDENNÍMI v_B ii_I c_I e_I d_I e_I nj_I ii_I m_I i_E
 VÍCEMÉNĚ VÍCEMÉNĚ v_B ii_I c_I e_I m_I ee_I nj_I e_E
 VÍCESMĚNNOSTÍ VÍCESMĚNNOSTÍ v_B ii_I c_I e_I s_I m_I nj_I e_I n_I o_I s_I tj_I ii_E
-VÍKEND VÍKEND v_B ii_I k_I e_I n_I d_E
+VÍKEND VÍKEND v_B ii_I k_I e_I n_I t_E
 VÍM VÍM v_B ii_I m_E
 VÍME VÍME v_B ii_I m_I e_E
 VÍNA VÍNA v_B ii_I n_I a_E
@@ -12982,7 +12949,7 @@ VÝDĚLKU VÝDĚLKU v_B ii_I dj_I e_I l_I k_I u_E
 VÝHERCE VÝHERCE v_B ii_I h_I e_I r_I c_I e_E
 VÝHERCŮ VÝHERCŮ v_B ii_I h_I e_I r_I c_I uu_E
 VÝHERNÍ VÝHERNÍ v_B ii_I h_I e_I r_I nj_I ii_E
-VÝHOD VÝHOD v_B ii_I h_I o_I d_E
+VÝHOD VÝHOD v_B ii_I h_I o_I t_E
 VÝHODA VÝHODA v_B ii_I h_I o_I d_I a_E
 VÝHODAMI VÝHODAMI v_B ii_I h_I o_I d_I a_I m_I i_E
 VÝHODNÁ VÝHODNÁ v_B ii_I h_I o_I d_I n_I aa_E
@@ -13317,7 +13284,7 @@ ZACHYTÁVÁNÍ ZACHYTÁVÁNÍ z_B a_I x_I i_I t_I aa_I v_I aa_I nj_I ii_E
 ZACHÁZET ZACHÁZET z_B a_I x_I aa_I z_I e_I t_E
 ZACHÁZÍ ZACHÁZÍ z_B a_I x_I aa_I z_I ii_E
 ZACVIČENÍ ZACVIČENÍ z_B a_I c_I v_I i_I ch_I e_I nj_I ii_E
-ZAD ZAD z_B a_I d_E
+ZAD ZAD z_B a_I t_E
 ZADAJÍ ZADAJÍ z_B a_I d_I a_I j_I ii_E
 ZADARMO ZADARMO z_B a_I d_I a_I r_I m_I o_E
 ZADAT ZADAT z_B a_I d_I a_I t_E
@@ -13985,7 +13952,6 @@ ZPROSTŘEDKOVÁVÁ ZPROSTŘEDKOVÁVÁ s_B p_I r_I o_I s_I t_I rsh_I e_I t_I k_I 
 ZPROSTŘEDKUJE ZPROSTŘEDKUJE s_B p_I r_I o_I s_I t_I rsh_I e_I t_I k_I u_I j_I e_E
 ZPROVOZNĚN ZPROVOZNĚN s_B p_I r_I o_I v_I o_I z_I nj_I e_I n_E
 ZPRÁV ZPRÁV s_B p_I r_I aa_I f_E
-ZPRÁV ZPRÁV s_B p_I r_I aa_I v_E
 ZPRÁVA ZPRÁVA s_B p_I r_I aa_I v_I a_E
 ZPRÁVU ZPRÁVU s_B p_I r_I aa_I v_I u_E
 ZPRÁVY ZPRÁVY s_B p_I r_I aa_I v_I i_E
@@ -14221,7 +14187,6 @@ ZÁMĚRU ZÁMĚRU z_B aa_I m_I nj_I e_I r_I u_E
 ZÁMĚRY ZÁMĚRY z_B aa_I m_I nj_I e_I r_I i_E
 ZÁMĚRŮ ZÁMĚRŮ z_B aa_I m_I nj_I e_I r_I uu_E
 ZÁNIK ZÁNIK z_B aa_I nj_I i_I k_E
-ZÁPAD ZÁPAD z_B aa_I p_I a_I d_E
 ZÁPAD ZÁPAD z_B aa_I p_I a_I t_E
 ZÁPADNÍ ZÁPADNÍ z_B aa_I p_I a_I d_I nj_I ii_E
 ZÁPADNÍCH ZÁPADNÍCH z_B aa_I p_I a_I d_I nj_I ii_I x_E
@@ -14499,7 +14464,7 @@ _SIL_ _SIL_ SIL_S
 ÚTOKU ÚTOKU uu_B t_I o_I k_I u_E
 ÚTOČNÉ ÚTOČNÉ uu_B t_I o_I ch_I n_I ee_E
 ÚTVARU ÚTVARU uu_B t_I v_I a_I r_I u_E
-ÚVAH ÚVAH uu_B v_I a_I h_E
+ÚVAH ÚVAH uu_B v_I a_I x_E
 ÚVAHA ÚVAHA uu_B v_I a_I h_I a_E
 ÚVAHU ÚVAHU uu_B v_I a_I h_I u_E
 ÚVAHY ÚVAHY uu_B v_I a_I h_I i_E
@@ -14646,7 +14611,6 @@ _SIL_ _SIL_ SIL_S
 ČET ČET ch_B e_I t_E
 ČETNÉ ČETNÉ ch_B e_I t_I n_I ee_E
 ČEZ ČEZ ch_B e_I s_E
-ČEZ ČEZ ch_B e_I z_E
 ČEZEM ČEZEM ch_B e_I z_I e_I m_E
 ČEZU ČEZU ch_B e_I z_I u_E
 ČEŠTINY ČEŠTINY ch_B e_I sh_I tj_I i_I n_I i_E
@@ -14773,7 +14737,6 @@ _SIL_ _SIL_ SIL_S
 ČÍSLICOVĚ ČÍSLICOVĚ ch_B ii_I s_I l_I i_I c_I o_I v_I j_I e_E
 ČÍSLO ČÍSLO ch_B ii_I s_I l_I o_E
 ČÍST ČÍST ch_B ii_I s_I t_E
-ŘAD ŘAD rzh_B a_I d_E
 ŘAD ŘAD rzh_B a_I t_E
 ŘADA ŘADA rzh_B a_I d_I a_E
 ŘADOU ŘADOU rzh_B a_I d_I ow_E
